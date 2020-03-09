@@ -7,7 +7,7 @@ import time
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-print("MICROHARD - API KASPERSKY SECURITY CENTER")
+print("API CONECTCAR KASPERSKY SECURITY CENTER by ZeroProj (Lucas Matheus)")
 #Credencias e Servidores
 ks = input("Digite o Nome/IP do servidor de Administração: ")
 port = input("Digite a Porta de Conexão: ")
@@ -202,8 +202,7 @@ while True:
         
     elif(a=="5"):
         print("\n####################################################")
-        print("MICROHARD")
-        print("Desenvolvido por LUCAS MATHEUS OLIVEIRA SILVA")
+        print("Desenvolvido por ZEROPROJ (LUCAS MATHEUS)")
         print("####################################################\n")
         time.sleep(5)
     
